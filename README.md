@@ -1,5 +1,5 @@
 # goodweDT2mqtt
-Polls GoodWE-DT Inverter and publishes Values to mqtt.
+Polls GoodWE-DT Inverter on the direct way (No SEMS, No Cloud!) and publishes Values to mqtt.
 
 ## SetUp:
 Edit goodwe.js and 
