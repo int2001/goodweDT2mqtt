@@ -5,6 +5,9 @@ Polls GoodWE-DT Inverter and publishes Values to mqtt.
 Edit goodwe.js and 
 * change mqclient-var to your MQTT-Server
 * change HOST to your GoodWE-DT-Inverter WLAN-Stick
+* Place `package.json` and `goodwe.js` in one folder
+* Go to Folder and type `npm install` or `yarn install` at the Shell
+* Call `node goodwe.js` or run in within pm2 or some other processmanager
 
 ## Operation:
 * Run in f.ex. in pm2 or in tmux
