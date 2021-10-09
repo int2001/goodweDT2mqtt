@@ -1,0 +1,12 @@
+{
+  "name": "goodwe",
+  "version": "1.0.0",
+  "main": "goodwe.js",
+  "license": "MIT",
+  "dependencies": {
+    "binary-parser": "^1.9.2",
+    "dgram": "^1.0.1",
+    "mqtt": "^4.2.8",
+    "node-crc16": "^2.0.7"
+  }
+}
