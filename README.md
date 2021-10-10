@@ -2,11 +2,12 @@
 Polls GoodWE-DT Inverter on the direct way (No SEMS, No Cloud!) and publishes Values to mqtt.
 
 ## SetUp:
-Edit goodwe.js and 
+* Place `package.json` and `goodwe.js` in one folder (`git clone`)
+* Go to Folder and type `npm install` or `yarn install` at the Shell
+
+#### Edit goodwe.js and 
 * change mqclient-var to your MQTT-Server
 * change HOST to your GoodWE-DT-Inverter WLAN-Stick
-* Place `package.json` and `goodwe.js` in one folder
-* Go to Folder and type `npm install` or `yarn install` at the Shell
 * Call `node goodwe.js` or run in within pm2 or some other processmanager
 
 ## Operation:
