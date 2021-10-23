@@ -92,7 +92,6 @@ const req_it = async function()  {
 			var stats=ipHeader.parse(message);
 			console.log(stats);
 			if (stats.pwrtoday<6000) {
-				stats.pwrtotal+=384.2;
 				mqclient.publish('pvwest/tele',JSON.stringify(stats));
 			} else {
 				console.log('invalid Data: ' + crcdings.toString('hex') + '/' + crc16.checkSum(payload.toString('hex')));
